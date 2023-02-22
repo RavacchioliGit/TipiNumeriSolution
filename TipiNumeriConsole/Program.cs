@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -12,7 +14,7 @@
             prezzoFinale = prezzoIntero * (1 - i * sconto);
             Console.WriteLine($"sconto {i}0% ->Prezzo scontato {prezzoFinale} ");
         }
-        
+        Console.WriteLine("Ciao da collaboratore");
        
     }
 }
